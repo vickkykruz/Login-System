@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.container .login-form {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #ccc; */
+}
+
+.container .login-form .form h1 {
+  font: 1.3rem;
+  font-family: 600;
+}
+
+.container .login-form .form .brand_logo {
+  text-align: center;
+}
+
+.container .login-form .form .brand_logo h5 {
+  font-weight: 600
+}
+
+.container .login-form .form .brand_logo h5 span {
+  color: #dbbe15ec;
+}
+
+.container .login-form .form .brand_logo img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.container .login-form .form button {
+  width: 100%;
+}
+
+.container .login-form .form .error h6 {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+@media (max-width: 773px) {
+  .container .login-form .form h1 {
+      font-size: 1.1rem;
+      font-weight: 600;
+  }
+}

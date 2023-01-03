@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #daa520;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.container .login-forms {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container .login-forms .form .user-logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container .login-forms .form .user-logo h5 span {
+  color:  #daa520;
+}
+
+.container .login-forms .form button {
+  width: 100%;
+}
